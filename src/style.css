@@ -128,3 +128,66 @@ p{
     align-items: center;
 }
 
+.project-card{
+    width: 400px;
+    height: 600px;
+    border-radius: 40px;    
+  }
+
+.project-container{
+    display: flex;
+    justify-content: space-around;    
+}
+
+@media only screen and (max-width: 1000px){
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.project-image{
+    margin-top: 25px;
+    width: 380px;
+    clip-path: circle();
+}
+
+.hr{
+    margin-left: 20px;
+    margin-right: 20px;
+} 
+
+.project-link{
+    text-decoration: none;
+    color: chocolate;
+}
+
+.a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.contact_form{
+text-align: center;
+padding-bottom: 100px;
+}
+
+#fname{
+    margin-bottom: 20px;
+}
+
+#lname{
+    margin-bottom: 20px;
+}
+
+#email{
+    margin-bottom: 20px;
+}
+
+#website{
+    margin-bottom: 20px;
+}
+
+#message{
+    text-align: center;
+}
