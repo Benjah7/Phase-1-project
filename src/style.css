@@ -1,0 +1,193 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+      background-color: beige;
+    }
+
+.heading{
+    background-color: rgb(22, 83, 136);
+    height: 100vh;
+    color: aliceblue;
+    font-size: 40px;
+}
+
+footer{
+    height: 500px;
+    background-color: black;
+    color: white; 
+    text-align: center;
+    padding: 80px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;   
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content:space-around;
+    font-size: 30px;
+}
+
+li{width: 200;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 90px;
+    margin: 0px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+p{
+    margin: o;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.sub-text{
+    font-size: 15px;
+    font-weight: 300px;
+}
+
+.heading-area{
+   display: flex;
+    height: 100%;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.hero-text{
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.button{
+    width: 200px;
+    height: 100px;
+    border-radius: 30px;
+    background-color:chocolate;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+} 
+
+.button:hover{
+    background-color:brown
+}
+
+.button:active{
+    background-color: darkgray;
+    color: #4555af;
+}
+
+.socials{
+    padding-bottom: 200px;  
+    text-align: center; 
+
+}
+
+.logo{
+    height: 100px;
+    margin:50px
+}
+
+.social{
+    margin: 5px;
+}
+
+.sub-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.sub-section-alternative{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.headshot{ 
+    width: 400px;
+    clip-path: circle();
+}  
+.headshot-container{
+    display: flex;
+    align-items: center;
+}
+
+.project-card{
+    width: 400px;
+    height: 600px;
+    border-radius: 40px;    
+  }
+
+.project-container{
+    display: flex;
+    justify-content: space-around;    
+}
+
+@media only screen and (max-width: 1000px){
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.project-image{
+    margin-top: 25px;
+    width: 380px;
+    clip-path: circle();
+}
+
+.hr{
+    margin-left: 20px;
+    margin-right: 20px;
+} 
+
+.project-link{
+    text-decoration: none;
+    color: chocolate;
+}
+
+.a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.contact_form{
+text-align: center;
+padding-bottom: 100px;
+}
+
+#fname{
+    margin-bottom: 20px;
+}
+
+#lname{
+    margin-bottom: 20px;
+}
+
+#email{
+    margin-bottom: 20px;
+}
+
+#website{
+    margin-bottom: 20px;
+}
+
+#message{
+    text-align: center;
+}
