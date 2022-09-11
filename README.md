@@ -14,5 +14,7 @@ This application is a photoshop. In the app, once the page has loaded, a user is
 2. Add a text to the body about the app
 
 # Live link
+https://benjah7.github.io/Phase-1-project/
+
 
 
