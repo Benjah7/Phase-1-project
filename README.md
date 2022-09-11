@@ -12,7 +12,7 @@ This application is a photoshop. In the app, once the page has loaded, a user is
 # Project set-up instructions
 1. Link the css, index.js file and other relevant files to html.
 2. Add a text to the body about the app
-
+3. fetch and get an api
 
 # Live link
 https://benjah7.github.io/Phase-1-project/
